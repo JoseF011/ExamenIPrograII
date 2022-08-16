@@ -1,24 +1,40 @@
 
 package exameniprograii;
 
+import java.util.Scanner;
 
 
-
-public class Clientes extends  {
-    private String nombre;
-    private String direccion;
-    private int telefono;
-    private String email;
-    private String tipoPedido;
-    
-    protected void realizarPedido( ){
-        
-    }
-    protected void estadoPedido ( ){
-        
-    }
-    protected void pagar ( ){
-        
-    }
-    
+public class Clientes {
+  private String nombre;
+  private String direccion;
+  
+  
+  public Clientes(String nombre, String direccion){
+      this.nombre=nombre;
+      this.direccion=direccion;
+      
+  }
+  public String getNombre(){
+   return nombre;
+       
+  }
+ 
+  public void setNombre(String nombre){
+    this.nombre=nombre;
+      
+  }
+  
+   public String getDireccion(){
+      return direccion;
+  }
+   public void setDireccion(String direccion){
+      this.direccion=direccion;
+      
+  }
 }
+  
+    
+ 
+   
+    
+

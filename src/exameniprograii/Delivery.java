@@ -22,6 +22,13 @@ public class Delivery {
         switch (opcion){
             case 1: 
                 
+               Clientes =new Clientes();
+                System.out.println("Ingrese su nombre: ");
+                Clientes1.getNombre();
+                System.out.println("Ingrese su direccion: ");
+                Clientes1.getDireccion();
+                break;
+                
             
         }
       
