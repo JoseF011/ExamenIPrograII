@@ -3,18 +3,20 @@
 
 package exameniprograii;
 
+import java.util.Scanner; 
 
 
 
-
-public class Usuarios {
-       private String nombre;
-    private String puesto;
-    private String pedido;
-    private int precio;
-    
-     public void verificarPedido (String Cliente){
-        
-    }
+public abstract class Usuarios {
+       
+     Scanner entrada=new Scanner(System.in);
+     String name;
+     
+     public Usuarios (String name){
+         this.name=name;
+     }
+     public String getName(){
+         return name;
+     }
     
 }

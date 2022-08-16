@@ -22,13 +22,19 @@ public class Delivery {
         switch (opcion){
             case 1: 
                 
-               Clientes =new Clientes();
-                System.out.println("Ingrese su nombre: ");
-                Clientes1.getNombre();
-                System.out.println("Ingrese su direccion: ");
-                Clientes1.getDireccion();
+               Clientes clienteNuevo=new Clientes("Gabriel","Res Los Jícaros","Zapato burro", 2004);
+                System.out.println("");
+                clienteNuevo.mostrarDatos();
                 break;
-                
+            case 2:
+                  Vendedores vendedor = new Vendedores ("Juan", 4356);
+               System.out.println("");
+               vendedor.mostrarDatosVendedor();
+                break;
+            case 3: 
+                Repartidor repartidoresDelivery = new Repartidor ("Fernando","una hora");
+                System.out.println("");
+                repartidoresDelivery.setDatosRepartidor();
             
         }
       
