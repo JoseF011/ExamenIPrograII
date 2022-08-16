@@ -35,7 +35,10 @@ public class Delivery {
                 Repartidor repartidoresDelivery = new Repartidor ("Fernando","una hora");
                 System.out.println("");
                 repartidoresDelivery.setDatosRepartidor();
-            
+            break;
+            default: 
+                System.out.print("Numero incorrecto");
+                break;
         }
       
     }
